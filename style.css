@@ -1,0 +1,66 @@
+body {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: blueviolet;
+}
+
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+
+.caixa1:hover img{
+	transform: scale(1.5);
+	filter: opacity(10%)
+}
+
+.caixa1:hover h1{
+	transform: scale(1.5);
+	filter: opacity(10%)
+}
+
+
+.caixa2:hover img{
+	transform: scale(1.5);
+	filter: blur(10px)
+}
+
+.caixa3:hover img{
+	transform: scale(1.5);
+	filter: brightness(150%)
+}
+
+.caixa4:hover img{
+	transform: scale(1.5);
+	filter: contrast(10%)
+}
+
+.caixa5:hover img{
+	transform: scale(1.5);
+	filter: grayscale(100%)
+}
+
+.caixa6:hover img{
+	transform: scale(1.5);
+	filter: invert(100%)
+}
+
+.caixa7:hover img{
+	transform: scale(1.5);
+	filter: saturate(300%)
+}
+
+.caixa8:hover img{
+	transform: scale(1.5);
+	filter: sepia(100%)
+}
+
+.caixa9:hover img{
+	transform: scale(1.5);
+	filter: drop-shadow(20px -20px 10px #0000ff);
+}
+
